@@ -1,0 +1,116 @@
+@charset "UTF-8";
+* {
+  color: #2F343B;
+  font-family: 微軟正黑體;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-image: url("http://i.imgur.com/WBTMmCc.jpg");
+}
+
+.blog {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.top {
+  text-align: center;
+  min-width: 380px;
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  color: #ff6e3a;
+  font-family: 微軟正黑體;
+  font-weight: 900;
+}
+
+.bottom {
+  min-width: 400px;
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 30px 10px 30px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: solid 12px #FFFFFF;
+}
+
+h2 {
+  font-family: cwTeXFangSong;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #263248;
+}
+
+.page {
+  text-align: center;
+}
+
+.content {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a {
+  border: solid 1px #2F343B;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #2F343B;
+}
+a:hover {
+  color: #2F343B;
+  background-color: #FFFFFF;
+  transition-duration: 1s;
+  text-decoration: none;
+  border: solid 1px #2F343B;
+}
+
+footer {
+  text-align: center;
+  padding-top: 15px;
+  font-weight: blod;
+  color: white;
+}
+
+.box1, .box2 {
+  border-top: solid 3px #ff6e3a;
+  padding-top: 10px;
+  width: 150px;
+  height: 200px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.box1 {
+  margin-right: 15px;
+}
+
+.con {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.con2left {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.intro {
+  text-align: left;
+}
